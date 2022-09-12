@@ -1,9 +1,9 @@
-### What ports are open on your computer
+### What ports are open on your computer TCP and UDP
 
 linux
 ```sh
 $ 
-netstat -tulpn  # netstat tells you 
+sudo netstat -tulpn  # netstat tells you 
 ```
 
 mac
@@ -14,3 +14,14 @@ lsof -PiTCP -sTCP:LISTEN
 
 $
 netstat  -anv -p tcp -f inet | grep 5432
+
+
+---
+
+### What unix socket  are open 
+
+linux
+```sh
+$ 
+sudo sudo netstat -lp -x
+```
