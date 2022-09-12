@@ -15,9 +15,9 @@ lsof -PiTCP -sTCP:LISTEN
 $
 netstat  -anv -p tcp -f inet | grep 5432
 
+```
 
 ---
-
 ### What unix socket  are open 
 
 linux
