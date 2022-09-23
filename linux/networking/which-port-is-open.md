@@ -23,5 +23,5 @@ netstat  -anv -p tcp -f inet | grep 5432
 linux
 ```sh
 $ 
-sudo sudo netstat -lp -x
+sudo  netstat -lp -x
 ```
